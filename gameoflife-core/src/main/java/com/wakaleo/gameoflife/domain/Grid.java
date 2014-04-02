@@ -16,7 +16,6 @@ public class Grid {
 
     public Grid(final String gridContents) {
         this.cells = makeCellArrayFrom(gridContents);
-        System.out.println("TESTING3");
     }
 
     public Grid() {
