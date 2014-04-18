@@ -13,8 +13,8 @@
         <easyb.version>1.5</easyb.version>
         <cobertura.version>2.5.1</cobertura.version>
         <!-- A workaround for a bug in PMD -->
-        <targetJdk>1.6</targetJdk>
-        <github.account>wakaleo</github.account>
+        <targetJdk>1.7</targetJdk>
+        <github.account>jimomulloy</github.account>
         <thucydides.version>0.9.22</thucydides.version>
     </properties>
 
@@ -29,8 +29,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>${targetJdk}</source>
+                    <target>${targetJdk}</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -290,7 +290,7 @@
                             </dependency>
                         </dependencies>
                         <configuration>
-                            <targetJdk>1.6</targetJdk>
+                            <targetJdk>${targetJdk}</targetJdk>
                             <aggregate>true</aggregate>
                             <format>xml</format>
                             <rulesets>
@@ -375,7 +375,7 @@
                                     <artifactId>maven-pmd-plugin</artifactId>
                                     <version>2.5</version>
                                     <configuration>
-                                        <targetJdk>1.6</targetJdk>
+                                        <targetJdk>${targetJdk}</targetJdk>
                                         <aggregate>true</aggregate>
                                         <format>xml</format>
                                         <rulesets>
@@ -399,7 +399,7 @@
                                     <artifactId>maven-javadoc-plugin</artifactId>
                                     <version>2.7</version>
                                     <configuration>
-                                        <source>1.6</source>
+                                        <source>${targetJdk}</source>
                                         <doclet>
                                             gr.spinellis.umlgraph.doclet.UmlGraphDoc
                                         </doclet>
@@ -489,7 +489,7 @@
                         <artifactId>maven-pmd-plugin</artifactId>
                         <version>2.5</version>
                         <configuration>
-                            <targetJdk>1.6</targetJdk>
+                            <targetJdk>${targetJdk}</targetJdk>
                             <aggregate>true</aggregate>
                             <format>xml</format>
                             <rulesets>
@@ -522,7 +522,7 @@
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>2.7</version>
                         <configuration>
-                            <source>1.6</source>
+                            <source>${targetJdk}</source>
                             <doclet>
                                 gr.spinellis.umlgraph.doclet.UmlGraphDoc
                             </doclet>
