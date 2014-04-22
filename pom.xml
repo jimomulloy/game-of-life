@@ -17,7 +17,7 @@
         <github.account>jimomulloy</github.account>
         <thucydides.version>0.9.22</thucydides.version>
     </properties>
-
+<!-- Note this requires SSH set up for GIT repo also set up UBUNTU Jenkins user with SSH key and register with GITHUB -->
     <scm>
         <connection>scm:git:git@github.com:jimomulloy/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:jimomulloy/game-of-life.git</developerConnection>
