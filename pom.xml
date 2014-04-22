@@ -218,9 +218,9 @@
     </modules>
     <distributionManagement>
         <repository>
-            <id>cloudbees-private-snapshot-repository</id>
-            <name>cloudbees-private-snapshot-repository</name>
-            <url>dav:https://repository-commonline.forge.cloudbees.com/snapshot/</url>
+            <id>cloudbees-private-release-repository</id>
+            <name>cloudbees-private-release-repository</name>
+            <url>dav:https://repository-commonline.forge.cloudbees.com/release/</url>
         </repository>
         <snapshotRepository>
             <id>cloudbees-private-snapshot-repository</id>
