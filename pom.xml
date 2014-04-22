@@ -21,7 +21,7 @@
     <scm>
         <connection>scm:git:git@github.com:jimomulloy/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:jimomulloy/game-of-life.git</developerConnection>
-        <url>scm:git:git@github.com:jimomulloy/game-of-life.git</url>
+        <url>https://github.com/jimomulloy/game-of-life</url>
     </scm>
     <build>
         <plugins>
