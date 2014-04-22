@@ -19,9 +19,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/jimomulloy/game-of-life.git</connection>
-        <developerConnection>scm:git:https://github.com/jimomulloy/game-of-life.git</developerConnection>
-        <url>https://github.com/jimomulloy/game-of-life</url>
+        <connection>scm:git:git@github.com:jimomulloy/game-of-life.git</connection>
+        <developerConnection>scm:git:git@github.com:jimomulloy/game-of-life.git</developerConnection>
+        <url>scm:git:git@github.com:jimomulloy/game-of-life.git</url>
     </scm>
     <build>
         <plugins>
@@ -33,7 +33,7 @@
                     <target>${targetJdk}</target>
                 </configuration>
             </plugin>
-            <plugin>
+   		    <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.10</version>
                 <configuration>
